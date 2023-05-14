@@ -9,7 +9,7 @@ import initialContacts from './contacts.json';
 
 export const App = () => {
   const [contacts, setContacts] = useState(
-    () => initialContacts,
+    () => initialContacts
   );
   const [filter, setFilter] = useState('');
 
